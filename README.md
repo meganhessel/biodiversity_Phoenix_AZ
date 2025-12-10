@@ -11,21 +11,20 @@ Study how the urban spaw in Phoenix, AZ is disrubiting the biodiversity and ecos
 
 ## Housed in Repository
 
-Within the repo is the README, anazlysis notebook, and the gitinore. 
+Within the repo is the README, anazlysis notebook, and the gitinore. The .DS_Store and data folders are included in the .gitignore to avoid pushing large amounts of data. 
 
 ```{python}
 biodiversity_Phoenix_AZ
-│   .DS_Store
-│   README.md
-|   task2_biodiversity.ipynb
-|   .gitignore 
-└── data
-     └── tl_2023_AZ
+├── README.md
+├── task2_biodiversity.ipynb
+└── .gitignore
 ```
 
 **The data...**
 
-Is accessible through online plateforms. And the Arizona county subdivision dataset is located within this repository, in the 'data' folder.
+The data used is NOT accessible within this repository. 
+
+The data is only accessible through online plateforms:
 
 -  The Arizona county subdivision dataset contains all county geometries. The dataset is from [U.S. Census Buraeu](https://catalog.data.gov/dataset/tiger-line-shapefile-2023-state-arizona-az-county-subdivision) and accessed on December 6, 2025. 
 
@@ -44,6 +43,6 @@ Z. Levitt and J. Eng, “Where America’s developed areas are growing: ‘Way o
 F. Gassert, J. Mazzarello, and S. Hyde, “Global 100m Projections of Biodiversity Intactness for the years 2017-2020 [Technical Whitepaper].” Aug. 2022. Available: https://ai4edatasetspublicassets.blob.core.windows.net/assets/pdfs/io-biodiversity/Biodiversity_Intactness_whitepaper.pdf
 
 ## Acknowledgments 
- I would like to thank Dr. Carmen Galaz García and Dr. Annie Adams for helping in the creation and development of this project.
+I would like to thank Dr. Carmen Galaz García and Dr. Annie Adams for helping in the creation and development of this project.
 
 
