@@ -15,12 +15,17 @@ Within the repo is the README, anazlysis notebook, and the gitinore.
 
 ```{python}
 biodiversity_Phoenix_AZ
+│   .DS_Store
 │   README.md
-|   task2_biodiversity.ipynb  
-└── .gitignore
+|   task2_biodiversity.ipynb
+|   .gitignore 
+└── data
+     └── tl_2023_AZ
 ```
 
 **The data...**
+Is accessible through online plateforms. And the Arizona county subdivision dataset is located within this repository, in the 'data' folder.
+
 -  The Arizona county subdivision dataset contains all county geometries. The dataset is from [U.S. Census Buraeu](https://catalog.data.gov/dataset/tiger-line-shapefile-2023-state-arizona-az-county-subdivision) and accessed on December 6, 2025. 
 
 -  The Biodiversity Intactness Index (BII) Time Series data is from the [Microsoft Planetary Computer STAC catalog](https://planetarycomputer.microsoft.com/dataset/io-biodiversity), and accessed on December 6,2025. The BII measures the health of the ecosystem by looking at species abundance and diversity. 
